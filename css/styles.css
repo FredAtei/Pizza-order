@@ -243,3 +243,13 @@ html {
     margin-right: 10%; 
   }
 }
+
+#contact h2{
+  text-align: center;
+}
+#contact{
+  color: black;
+}
+#contactdetails h2{
+  text-align: left;
+}
