@@ -97,3 +97,41 @@ html {
     transform: translateY(-45px);
   }
 }
+
+.about{
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top:40px;
+  font-family: 'Alata', serif;
+  font-size: 25px;
+  background-color: #f0f8ff;
+}
+
+#about-us{
+  min-height: 70vh;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top:40px;
+  font-family: 'Alata', serif;
+  font-size: 25px;
+  background-color: rosybrown;
+
+}
+.about-pic {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#about-us .content{
+  padding: 65px 50px 85px;
+  width: 100%;
+  float:right;
+  text-align: justify;
+  overflow-x: hidden;
+}
+
+#about-us h2{
+  text-align: center;
+  font-size: 50px;
+}
