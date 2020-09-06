@@ -6,6 +6,7 @@ html {
   overflow: hidden;
   background-color: green;
   padding: 10px 10px;
+  font-family: 'Grandstander', serif;
 }
 
 .header a {
@@ -248,8 +249,22 @@ html {
   text-align: center;
 }
 #contact{
+  background-color: green;
   color: black;
+  font-family: 'Grandstander', serif;
 }
 #contactdetails h2{
   text-align: left;
+}
+
+footer{
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Grandstander', serif;
+}
+
+footer p{
+  margin-top: 10px;
+  font-family: 'Grandstander', serif;
+
 }
