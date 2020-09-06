@@ -49,3 +49,51 @@ html {
     float: none;
   }
 }
+
+.landing{
+  background-image: url('../images/pizza\ wall.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(0, 204, 78);
+  text-align: center;
+  padding-top:10%; 
+  font-family: 'Grandstander', serif;
+}
+
+.landing h1{
+  padding: 2px;
+  margin: 5px;
+  font-size: 100px;
+}
+
+.landing h2{
+  font-size: 50px;
+}
+
+.landing p{
+  padding: 5px;
+  font-size: 25px;
+}
+
+#mouse-click{
+  padding-top : 22px;
+  padding-bottom: 30px; 
+  /* animation-iteration-count: infinite; */
+}
+
+#mouse-click {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+}
