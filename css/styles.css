@@ -135,3 +135,22 @@ html {
   text-align: center;
   font-size: 50px;
 }
+
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
+}
+
+.col-md-3 img{
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.portfolio h2{
+  text-align: center;
+  padding-top:40px;
+  font-family: 'Playfair Display', serif;
+}
