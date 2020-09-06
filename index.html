@@ -118,39 +118,39 @@
             <label for="select">Select Size</label>
             <select class="browser-default custom-select custom-select-md mb-3" id="size">
               <option selected value="0">Select size here</option>
-              <option value="large">Large -- sh. 1200</option>
-              <option value="medium">Medium -- sh. 850</option>
-              <option value="small">Small -- sh. 600</option>
+              <option value="large">Large -- sh. 1000</option>
+              <option value="medium">Medium -- sh. 500</option>
+              <option value="small">Small -- sh. 250</option>
             </select>
             <label for="crust">Choose your favorite Crust!</label>
             <select class="browser-default custom-select custom-select-md mb-3" id="crust">
               <option selected value="0">Select your preferred crust!</option>
-              <option value="Crispy">Crispy -- sh. 200</option>
-              <option value="Stuffed">Stuffed -- sh. 150</option>
-              <option value="Gluten-free">Gluten-free-- sh. 180</option>
+              <option value="Crispy">Crispy -- sh. 100</option>
+              <option value="large">Large -- sh. 50</option>
+              <option value="small-crust">small crust-- sh. 25</option>
             </select>
             <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
             <div class="custom-control custom-checkbox custom-control-inline">
               <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-              <label class="custom-control-label" for="Sausage">Sausage</label>
+              <label class="custom-control-label" for="tomato">Tomato</label>
             </div>
             <div class="custom-control custom-checkbox custom-control-inline">
               <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-              <label class="custom-control-label" for="Bacon">Bacon</label>
+              <label class="custom-control-label" for="Chilli">Chilli</label>
             </div>
             <div class="custom-control custom-checkbox custom-control-inline">
               <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
               <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
             </div>
             <br><br>
-            <button type="submit" class="btn btn-orange proceed" id="button">Proceed</button>
+            <button type="submit" class="btn btn-orange proceed" id="button">Order</button>
 
           </form>
         </div>
         <div class="col-sm-7">
           <div id="information">
             <p>Place Your Order to Receive Receipt</p>
-            <p id="regards">Regards, Management</p>
+            <p>And wait paitently. Thank you</p>
           </div>
           <div class="choise">
             <h2>Your Order is:</h2>
@@ -177,12 +177,12 @@
               </table>
               <p id="pizzatotal"></p>
               <p id="totalbill"></p>
-              <p id="addedprice">Delivery will cost sh. 150</p>
+              <p id="addedprice">Delivery will cost Ksh. 50</p>
               <p id="finallmessage"></p>
             </div>
             <button class="btn btn-orange addPizza" id="button">Add Pizza</button>
-            <button class="btn btn-orange" id="checkout">Checkout</button>
-            <button class="btn btn-orange deliver" id="button">Home delivery?</button>
+            <button class="btn btn-orange" id="checkout">Pick Up</button>
+            <button class="btn btn-orange deliver" id="button">Delivery</button>
           </div>
           <div class="delivery">
             <form action="">
@@ -190,7 +190,7 @@
                 <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                 <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
                 <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                <button class="btn btn-orange" id="final-order">Place Order</button>
+                <button class="btn btn-orange" id="final-order">Finalize</button>
               </div>
             </form>
           </div>
