@@ -112,7 +112,7 @@ $(document).ready(function () {
       $("button.proceed").show();
       $("#information").show();
       $("div.choise").hide();
-      alert("Please select pizza size and crust");
+      alert("Please click on your pizza selection");
     }
     else {
       $("button.proceed").hide();
@@ -166,10 +166,10 @@ $(document).ready(function () {
         case "Crispy":
           crust_price = 100;
           break;
-        case "Stuffed":
+        case "large":
           crust_price = 50;
           break;
-        case "Gluten-free":
+        case "small-crust":
           crust_price = 25;
           break;
         default:
